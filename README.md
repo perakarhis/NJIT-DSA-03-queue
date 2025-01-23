@@ -18,7 +18,7 @@ Data structures and algorithms.
 
 ## Prerequisites
 
-You have all the tools installed and working. This was tested in the `00-init` exercise of the course. If you haven't done that yet, do it now.
+You have all the tools installed and working. This was tested in the `00-init` exercise of the course.
 
 ## Instructions
 
