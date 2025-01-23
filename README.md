@@ -22,7 +22,7 @@ You have all the tools installed and working. This was tested in the `00-init` e
 
 ## Instructions
 
-The UML class diagram below shows an overview of the classes in this exercise. Do not mind the DailyTasks class. You will implement that later in the course.
+The UML class diagram below shows an overview of the classes in this exercise. Do not mind the DailyTasks class.
 
 ![Classes in this exercise](classes_new.png)
 
