@@ -1,6 +1,6 @@
 # Queue exercise
 
-Data structures and algorithms 2024.
+Data structures and algorithms.
 
 ## The goal
 
