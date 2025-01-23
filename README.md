@@ -25,7 +25,7 @@ You have all the tools installed and working. This was tested in the `00-init` e
 
 The UML class diagram below shows an overview of the classes in this exercise. Do not mind the DailyTasks class. You will implement that later in the course.
 
-![Classes in this exercise](classes.png)
+![Classes in this exercise](classes_new.png)
 
 You should **implement** the interface `QueueInterface` in a new `QueueImplementation.java` file, which you need to **create** inside the `oy.tol.tra` Java package. 
 
