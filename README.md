@@ -6,7 +6,6 @@ Data structures and algorithms.
 
 * The goal of this exercise is to implement a Queue data structure.
 * The implementation must pass all the tests included in the exercise.
-* After your implementation of queue passes the tests, implement the missing code in `DailyTasks.java` to see an applied usage of the queue.
 * When done, deliver your project as instructed in the course.
 * Time complexity requirements:
   * `capacity()`: O(1).
