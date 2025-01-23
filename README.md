@@ -28,16 +28,17 @@ The UML class diagram below shows an overview of the classes in this exercise. D
 
 You should **implement** the interface `QueueInterface` in a new `QueueImplementation.java` file, which you need to **create** inside the `oy.tol.tra` Java package. 
 
+Note that Java packages must be located in the corresponding directory. So, `QueueImplementation.java` must be located in this project's `src/main/java/oy/tol/tra/` directory!
+
+  * Create file in the right directory
+  * In the file, use the right package
+  * Declare necessary variables and implement the methods
+    * Check lecture material for needed variables and the algorithms for the methods
+    * Check the QueueInterface for descriptin of methods
+    * Check how the stack was implented in the previous task to help you get started
+    * NOTE! READ THE INSTRUCTIONS BELOW!
+
 > Note: the implementation of methods `dequeue()`, `element()`, `size()` and `isEmpty()` must have time complexity of O(1).
-
-Note that Java packages must be located in the corresponding directory. So `QueueImplementation.java` must be located in this project's `src/main/java/oy/tol/tra/` directory!
-
-Remember to **add** the new java file **to git** version control!:
-
-```console
-git add src/main/java/oy/tol/tra/QueueImplementation.java 
-```
-Otherwise it will be missing from your remote repository and thus also from the teachers when they inspect your work!
 
 Implement the queue so that you use `E` template parameter for the `QueueInterface`:
 
@@ -80,7 +81,7 @@ size: 0
 capacity: 10
 ```
 
-**Override** also the `toString()` method inherited from the Java `Object` class.
+**Override** also the `toString()` method inherited from the Java `Object` class. You can use the `toString` method from the previous task.
 
 It returns the queue as a string in the format "[1, 2, 3, 4, 5]", where 1 is the next element to take out from the queue (head), and 5 was the element most recenty entered into the queue (tail). If the queue is empty, returns "[]". 
 
@@ -127,8 +128,6 @@ index:  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
 ```
 And then a new element can be added to the array in index `tail`.
 
-After you have implemented your queue class, **instantiate** it in the `QueueFactory.createIntegerQueue()`. After this, you are ready to test your implementation.
-
 ## Testing 
 
 **Run the QueueTests tests** to make sure your queue implementation passes the unit tests. From command line, you can execute the tests (in the directory that contains the exercise `pom.xml` file):
@@ -137,6 +136,8 @@ After you have implemented your queue class, **instantiate** it in the `QueueFac
 mvn test
 ```
 
+From VSCode, run the tests form the the lab bottle icon.
+
 If the tests do not pass, you will see errors. Otherwise you will see that the tests succeed. If you have issues, fix your implementation and try again.
 
 When working with this exercise, **do not**:
@@ -144,11 +145,20 @@ When working with this exercise, **do not**:
 * Change the `QueueInterface` class in any way.
 * Change the unit tests in any way.
 
-Your queue implementation java file is the only file you need to edit in this exercise.
+Your queue implementation java file is the only file you need to create and edit in this exercise.
 
 ## Delivery
 
-Deliver your updated repository as instructed in the course.
+Deliver your updated local repository as instructed in the course.
+
+Remember to **add** the new java file **to git** version control!:
+
+```console
+git add src/main/java/oy/tol/tra/QueueImplementation.java 
+```
+In VSCode, the file should be added automatically when you Commit & Push.
+
+Otherwise it will be missing from your remote repository and thus also from the automated tests!
 
 ## Questions or problems?
 
